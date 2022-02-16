@@ -119,5 +119,12 @@ export const WETH = {
     18,
     'WONE',
     'Wrapped ONE'
+  ),
+  [ChainId.LOCAL_7545]: new Token(
+    ChainId.LOCAL_7545,
+    '0x87721Aa797cc729C102729F552174431eEC35829',
+    18,
+    'WETH',
+    'Wrapped ETH'
   )
 }
